@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CRM Web Page Test" verbose="1" >
+  <test name="CRM Login Page" >
+    <classes>
+       <class name="automationTest.TestCases.LoginPageTest" />
+        
+    </classes>
+  </test>
+  
+  <test name="CRM Home Page" >
+    <classes>
+       <class name="automationTest.TestCases.HomePageTest" />
+    </classes>
+  </test>
+  
+ </suite>

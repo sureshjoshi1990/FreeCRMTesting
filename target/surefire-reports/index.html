@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyCRMHomePageTitleNameTest">verifyCRMHomePageTitleNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_Blog">verifyLeft_Side_NAV_Blog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_NO_Company_Loaded_Test">verifyLeft_Side_NAV_NO_Company_Loaded_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_Short_List">verifyLeft_Side_NAV_Short_List</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_add_Boxes">verifyLeft_Side_NAV_add_Boxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_audit_trail">verifyLeft_Side_NAV_audit_trail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_calendar">verifyLeft_Side_NAV_calendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_call_list">verifyLeft_Side_NAV_call_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_customviews">verifyLeft_Side_NAV_customviews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_exports">verifyLeft_Side_NAV_exports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_imports">verifyLeft_Side_NAV_imports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_knowledge_base">verifyLeft_Side_NAV_knowledge_base</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_mail_accounts">verifyLeft_Side_NAV_mail_accounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_messages">verifyLeft_Side_NAV_messages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_pipeline">verifyLeft_Side_NAV_pipeline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_preferences">verifyLeft_Side_NAV_preferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_products">verifyLeft_Side_NAV_products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_promotions">verifyLeft_Side_NAV_promotions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_quick_alerts">verifyLeft_Side_NAV_quick_alerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_quick_create">verifyLeft_Side_NAV_quick_create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_resources">verifyLeft_Side_NAV_resources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_sales_targets">verifyLeft_Side_NAV_sales_targets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_schedule_call">verifyLeft_Side_NAV_schedule_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_team_view">verifyLeft_Side_NAV_team_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLeft_Side_NAV_timeline">verifyLeft_Side_NAV_timeline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verifyLoggedInName">verifyLoggedInName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.LoginPageTest" hash-for-method="verifyTitleNameTest">verifyTitleNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.HomePageTest" hash-for-method="verify_crm_companies_Test">verify_crm_companies_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="automationTest.TestCases.LoginPageTest" hash-for-method="virifyLogoTest">virifyLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationTest.TestCases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleNameTest">
+                  </a> <!-- verifyTitleNameTest -->
+                  <span class="method-name">verifyTitleNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="virifyLogoTest">
+                  </a> <!-- virifyLogoTest -->
+                  <span class="method-name">virifyLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationTest.TestCases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCRMHomePageTitleNameTest">
+                  </a> <!-- verifyCRMHomePageTitleNameTest -->
+                  <span class="method-name">verifyCRMHomePageTitleNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_Blog">
+                  </a> <!-- verifyLeft_Side_NAV_Blog -->
+                  <span class="method-name">verifyLeft_Side_NAV_Blog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_NO_Company_Loaded_Test">
+                  </a> <!-- verifyLeft_Side_NAV_NO_Company_Loaded_Test -->
+                  <span class="method-name">verifyLeft_Side_NAV_NO_Company_Loaded_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_Short_List">
+                  </a> <!-- verifyLeft_Side_NAV_Short_List -->
+                  <span class="method-name">verifyLeft_Side_NAV_Short_List</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_add_Boxes">
+                  </a> <!-- verifyLeft_Side_NAV_add_Boxes -->
+                  <span class="method-name">verifyLeft_Side_NAV_add_Boxes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_audit_trail">
+                  </a> <!-- verifyLeft_Side_NAV_audit_trail -->
+                  <span class="method-name">verifyLeft_Side_NAV_audit_trail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_calendar">
+                  </a> <!-- verifyLeft_Side_NAV_calendar -->
+                  <span class="method-name">verifyLeft_Side_NAV_calendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_call_list">
+                  </a> <!-- verifyLeft_Side_NAV_call_list -->
+                  <span class="method-name">verifyLeft_Side_NAV_call_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_customviews">
+                  </a> <!-- verifyLeft_Side_NAV_customviews -->
+                  <span class="method-name">verifyLeft_Side_NAV_customviews</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_exports">
+                  </a> <!-- verifyLeft_Side_NAV_exports -->
+                  <span class="method-name">verifyLeft_Side_NAV_exports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_imports">
+                  </a> <!-- verifyLeft_Side_NAV_imports -->
+                  <span class="method-name">verifyLeft_Side_NAV_imports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_knowledge_base">
+                  </a> <!-- verifyLeft_Side_NAV_knowledge_base -->
+                  <span class="method-name">verifyLeft_Side_NAV_knowledge_base</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_mail_accounts">
+                  </a> <!-- verifyLeft_Side_NAV_mail_accounts -->
+                  <span class="method-name">verifyLeft_Side_NAV_mail_accounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_messages">
+                  </a> <!-- verifyLeft_Side_NAV_messages -->
+                  <span class="method-name">verifyLeft_Side_NAV_messages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_pipeline">
+                  </a> <!-- verifyLeft_Side_NAV_pipeline -->
+                  <span class="method-name">verifyLeft_Side_NAV_pipeline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_preferences">
+                  </a> <!-- verifyLeft_Side_NAV_preferences -->
+                  <span class="method-name">verifyLeft_Side_NAV_preferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_products">
+                  </a> <!-- verifyLeft_Side_NAV_products -->
+                  <span class="method-name">verifyLeft_Side_NAV_products</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_promotions">
+                  </a> <!-- verifyLeft_Side_NAV_promotions -->
+                  <span class="method-name">verifyLeft_Side_NAV_promotions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_quick_alerts">
+                  </a> <!-- verifyLeft_Side_NAV_quick_alerts -->
+                  <span class="method-name">verifyLeft_Side_NAV_quick_alerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_quick_create">
+                  </a> <!-- verifyLeft_Side_NAV_quick_create -->
+                  <span class="method-name">verifyLeft_Side_NAV_quick_create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_resources">
+                  </a> <!-- verifyLeft_Side_NAV_resources -->
+                  <span class="method-name">verifyLeft_Side_NAV_resources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_sales_targets">
+                  </a> <!-- verifyLeft_Side_NAV_sales_targets -->
+                  <span class="method-name">verifyLeft_Side_NAV_sales_targets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_schedule_call">
+                  </a> <!-- verifyLeft_Side_NAV_schedule_call -->
+                  <span class="method-name">verifyLeft_Side_NAV_schedule_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_team_view">
+                  </a> <!-- verifyLeft_Side_NAV_team_view -->
+                  <span class="method-name">verifyLeft_Side_NAV_team_view</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeft_Side_NAV_timeline">
+                  </a> <!-- verifyLeft_Side_NAV_timeline -->
+                  <span class="method-name">verifyLeft_Side_NAV_timeline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoggedInName">
+                  </a> <!-- verifyLoggedInName -->
+                  <span class="method-name">verifyLoggedInName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_crm_companies_Test">
+                  </a> <!-- verify_crm_companies_Test -->
+                  <span class="method-name">verify_crm_companies_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationTest.TestCases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;automationTest.TestCases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'automationTest.TestCases.LoginPageTest')
+data.setCell(0, 3, 8214);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLeft_Side_NAV_pipeline')
+data.setCell(1, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(1, 3, 6849);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLeft_Side_NAV_mail_accounts')
+data.setCell(2, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(2, 3, 6232);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLeft_Side_NAV_timeline')
+data.setCell(3, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(3, 3, 6199);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLeft_Side_NAV_quick_alerts')
+data.setCell(4, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(4, 3, 5066);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLeft_Side_NAV_knowledge_base')
+data.setCell(5, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(5, 3, 4972);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLeft_Side_NAV_schedule_call')
+data.setCell(6, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(6, 3, 4797);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLeft_Side_NAV_preferences')
+data.setCell(7, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(7, 3, 4722);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_crm_companies_Test')
+data.setCell(8, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(8, 3, 4574);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLeft_Side_NAV_call_list')
+data.setCell(9, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(9, 3, 4510);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLeft_Side_NAV_calendar')
+data.setCell(10, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(10, 3, 4419);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLeft_Side_NAV_exports')
+data.setCell(11, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(11, 3, 4353);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLeft_Side_NAV_imports')
+data.setCell(12, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(12, 3, 4210);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLeft_Side_NAV_promotions')
+data.setCell(13, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(13, 3, 4129);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLeft_Side_NAV_sales_targets')
+data.setCell(14, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(14, 3, 4045);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLeft_Side_NAV_customviews')
+data.setCell(15, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(15, 3, 3893);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLeft_Side_NAV_resources')
+data.setCell(16, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(16, 3, 3849);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLeft_Side_NAV_team_view')
+data.setCell(17, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(17, 3, 3735);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLeft_Side_NAV_messages')
+data.setCell(18, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(18, 3, 3712);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLeft_Side_NAV_products')
+data.setCell(19, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(19, 3, 3626);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLeft_Side_NAV_audit_trail')
+data.setCell(20, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(20, 3, 3546);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLeft_Side_NAV_NO_Company_Loaded_Test')
+data.setCell(21, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(21, 3, 329);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyLeft_Side_NAV_Blog')
+data.setCell(22, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(22, 3, 251);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyLeft_Side_NAV_Short_List')
+data.setCell(23, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(23, 3, 245);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyLeft_Side_NAV_add_Boxes')
+data.setCell(24, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(24, 3, 219);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyLeft_Side_NAV_quick_create')
+data.setCell(25, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(25, 3, 152);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyLoggedInName')
+data.setCell(26, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(26, 3, 93);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'virifyLogoTest')
+data.setCell(27, 2, 'automationTest.TestCases.LoginPageTest')
+data.setCell(27, 3, 78);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyTitleNameTest')
+data.setCell(28, 2, 'automationTest.TestCases.LoginPageTest')
+data.setCell(28, 3, 45);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyCRMHomePageTitleNameTest')
+data.setCell(29, 2, 'automationTest.TestCases.HomePageTest')
+data.setCell(29, 3, 16);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationTest.TestCases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCRMHomePageTitleNameTest</span>
+                <span class="method-start">19591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_Blog</span>
+                <span class="method-start">36273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_NO_Company_Loaded_Test</span>
+                <span class="method-start">53052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_Short_List</span>
+                <span class="method-start">68220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_add_Boxes</span>
+                <span class="method-start">84781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85001 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">85700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_audit_trail</span>
+                <span class="method-start">102148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_calendar</span>
+                <span class="method-start">121676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">126759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_call_list</span>
+                <span class="method-start">142281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">147572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_customviews</span>
+                <span class="method-start">164056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_exports</span>
+                <span class="method-start">185504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">190581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_imports</span>
+                <span class="method-start">206824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">211705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_knowledge_base</span>
+                <span class="method-start">227391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">232363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">233069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_mail_accounts</span>
+                <span class="method-start">249063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">255297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">256027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_messages</span>
+                <span class="method-start">272148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">276658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_pipeline</span>
+                <span class="method-start">291833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">298682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">299317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_preferences</span>
+                <span class="method-start">314420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">319143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">319838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_products</span>
+                <span class="method-start">334911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">338537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">339169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_promotions</span>
+                <span class="method-start">355299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">359428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">360097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_quick_alerts</span>
+                <span class="method-start">375728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">380794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">381566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_quick_create</span>
+                <span class="method-start">397470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">397622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">398314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_resources</span>
+                <span class="method-start">414511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">418360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">419095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_sales_targets</span>
+                <span class="method-start">433451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">437497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">438252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_schedule_call</span>
+                <span class="method-start">456180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">460977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">461691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_team_view</span>
+                <span class="method-start">476964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">480699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">481427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeft_Side_NAV_timeline</span>
+                <span class="method-start">497603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">503802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">504508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoggedInName</span>
+                <span class="method-start">522383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">522476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">523419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_crm_companies_Test</span>
+                <span class="method-start">538803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">543378 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationTest.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">544345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleNameTest</span>
+                <span class="method-start">551466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">551511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">552490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">virifyLogoTest</span>
+                <span class="method-start">560098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">560176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">560866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">568776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">576992 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

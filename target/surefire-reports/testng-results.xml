@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="578157" started-at="2021-01-30T13:13:53 IST" finished-at="2021-01-30T13:23:31 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="578157" started-at="2021-01-30T13:13:53 IST" finished-at="2021-01-30T13:23:31 IST">
+      <class name="automationTest.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="19590" started-at="2021-01-30T13:13:53 IST" finished-at="2021-01-30T13:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCRMHomePageTitleNameTest()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyCRMHomePageTitleNameTest" duration-ms="16" started-at="2021-01-30T13:14:13 IST" finished-at="2021-01-30T13:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCRMHomePageTitleNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="670" started-at="2021-01-30T13:14:13 IST" finished-at="2021-01-30T13:14:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15991" started-at="2021-01-30T13:14:14 IST" finished-at="2021-01-30T13:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_Blog()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_Blog" duration-ms="251" started-at="2021-01-30T13:14:30 IST" finished-at="2021-01-30T13:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_Blog -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="665" started-at="2021-01-30T13:14:30 IST" finished-at="2021-01-30T13:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15860" started-at="2021-01-30T13:14:31 IST" finished-at="2021-01-30T13:14:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_NO_Company_Loaded_Test()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_NO_Company_Loaded_Test" duration-ms="329" started-at="2021-01-30T13:14:46 IST" finished-at="2021-01-30T13:14:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_NO_Company_Loaded_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="761" started-at="2021-01-30T13:14:47 IST" finished-at="2021-01-30T13:14:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="14074" started-at="2021-01-30T13:14:48 IST" finished-at="2021-01-30T13:15:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_Short_List()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_Short_List" duration-ms="245" started-at="2021-01-30T13:15:02 IST" finished-at="2021-01-30T13:15:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_Short_List -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="659" started-at="2021-01-30T13:15:02 IST" finished-at="2021-01-30T13:15:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15655" started-at="2021-01-30T13:15:03 IST" finished-at="2021-01-30T13:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_add_Boxes()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_add_Boxes" duration-ms="219" started-at="2021-01-30T13:15:18 IST" finished-at="2021-01-30T13:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_add_Boxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="699" started-at="2021-01-30T13:15:18 IST" finished-at="2021-01-30T13:15:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16447" started-at="2021-01-30T13:15:19 IST" finished-at="2021-01-30T13:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_audit_trail()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_audit_trail" duration-ms="3546" started-at="2021-01-30T13:15:36 IST" finished-at="2021-01-30T13:15:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_audit_trail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="700" started-at="2021-01-30T13:15:39 IST" finished-at="2021-01-30T13:15:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15280" started-at="2021-01-30T13:15:40 IST" finished-at="2021-01-30T13:15:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_calendar()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_calendar" duration-ms="4419" started-at="2021-01-30T13:15:55 IST" finished-at="2021-01-30T13:15:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_calendar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-01-30T13:15:59 IST" finished-at="2021-01-30T13:16:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15522" started-at="2021-01-30T13:16:00 IST" finished-at="2021-01-30T13:16:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_call_list()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_call_list" duration-ms="4510" started-at="2021-01-30T13:16:16 IST" finished-at="2021-01-30T13:16:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_call_list -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="778" started-at="2021-01-30T13:16:20 IST" finished-at="2021-01-30T13:16:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16484" started-at="2021-01-30T13:16:21 IST" finished-at="2021-01-30T13:16:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_customviews()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_customviews" duration-ms="3893" started-at="2021-01-30T13:16:37 IST" finished-at="2021-01-30T13:16:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_customviews -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="726" started-at="2021-01-30T13:16:41 IST" finished-at="2021-01-30T13:16:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16826" started-at="2021-01-30T13:16:42 IST" finished-at="2021-01-30T13:16:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_exports()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_exports" duration-ms="4353" started-at="2021-01-30T13:16:59 IST" finished-at="2021-01-30T13:17:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_exports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="720" started-at="2021-01-30T13:17:03 IST" finished-at="2021-01-30T13:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16243" started-at="2021-01-30T13:17:04 IST" finished-at="2021-01-30T13:17:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_imports()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_imports" duration-ms="4210" started-at="2021-01-30T13:17:20 IST" finished-at="2021-01-30T13:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_imports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="670" started-at="2021-01-30T13:17:24 IST" finished-at="2021-01-30T13:17:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15686" started-at="2021-01-30T13:17:25 IST" finished-at="2021-01-30T13:17:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_knowledge_base()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_knowledge_base" duration-ms="4972" started-at="2021-01-30T13:17:41 IST" finished-at="2021-01-30T13:17:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_knowledge_base -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="705" started-at="2021-01-30T13:17:46 IST" finished-at="2021-01-30T13:17:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15994" started-at="2021-01-30T13:17:46 IST" finished-at="2021-01-30T13:18:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_mail_accounts()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_mail_accounts" duration-ms="6232" started-at="2021-01-30T13:18:02 IST" finished-at="2021-01-30T13:18:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_mail_accounts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-01-30T13:18:09 IST" finished-at="2021-01-30T13:18:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16121" started-at="2021-01-30T13:18:09 IST" finished-at="2021-01-30T13:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_messages()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_messages" duration-ms="3712" started-at="2021-01-30T13:18:26 IST" finished-at="2021-01-30T13:18:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_messages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="795" started-at="2021-01-30T13:18:29 IST" finished-at="2021-01-30T13:18:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15174" started-at="2021-01-30T13:18:30 IST" finished-at="2021-01-30T13:18:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_pipeline()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_pipeline" duration-ms="6849" started-at="2021-01-30T13:18:45 IST" finished-at="2021-01-30T13:18:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_pipeline -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="633" started-at="2021-01-30T13:18:52 IST" finished-at="2021-01-30T13:18:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15103" started-at="2021-01-30T13:18:53 IST" finished-at="2021-01-30T13:19:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_preferences()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_preferences" duration-ms="4722" started-at="2021-01-30T13:19:08 IST" finished-at="2021-01-30T13:19:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_preferences -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="694" started-at="2021-01-30T13:19:13 IST" finished-at="2021-01-30T13:19:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15072" started-at="2021-01-30T13:19:13 IST" finished-at="2021-01-30T13:19:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_products()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_products" duration-ms="3626" started-at="2021-01-30T13:19:28 IST" finished-at="2021-01-30T13:19:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_products -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="630" started-at="2021-01-30T13:19:32 IST" finished-at="2021-01-30T13:19:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16130" started-at="2021-01-30T13:19:33 IST" finished-at="2021-01-30T13:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_promotions()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_promotions" duration-ms="4129" started-at="2021-01-30T13:19:49 IST" finished-at="2021-01-30T13:19:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_promotions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="669" started-at="2021-01-30T13:19:53 IST" finished-at="2021-01-30T13:19:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15631" started-at="2021-01-30T13:19:53 IST" finished-at="2021-01-30T13:20:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_quick_alerts()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_quick_alerts" duration-ms="5066" started-at="2021-01-30T13:20:09 IST" finished-at="2021-01-30T13:20:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_quick_alerts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-01-30T13:20:14 IST" finished-at="2021-01-30T13:20:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15903" started-at="2021-01-30T13:20:15 IST" finished-at="2021-01-30T13:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_quick_create()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_quick_create" duration-ms="152" started-at="2021-01-30T13:20:31 IST" finished-at="2021-01-30T13:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_quick_create -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-01-30T13:20:31 IST" finished-at="2021-01-30T13:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16196" started-at="2021-01-30T13:20:32 IST" finished-at="2021-01-30T13:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_resources()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_resources" duration-ms="3849" started-at="2021-01-30T13:20:48 IST" finished-at="2021-01-30T13:20:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_resources -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="733" started-at="2021-01-30T13:20:52 IST" finished-at="2021-01-30T13:20:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="14356" started-at="2021-01-30T13:20:52 IST" finished-at="2021-01-30T13:21:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_sales_targets()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_sales_targets" duration-ms="4045" started-at="2021-01-30T13:21:07 IST" finished-at="2021-01-30T13:21:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_sales_targets -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="755" started-at="2021-01-30T13:21:11 IST" finished-at="2021-01-30T13:21:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="17928" started-at="2021-01-30T13:21:12 IST" finished-at="2021-01-30T13:21:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_schedule_call()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_schedule_call" duration-ms="4797" started-at="2021-01-30T13:21:30 IST" finished-at="2021-01-30T13:21:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_schedule_call -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="714" started-at="2021-01-30T13:21:34 IST" finished-at="2021-01-30T13:21:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15273" started-at="2021-01-30T13:21:35 IST" finished-at="2021-01-30T13:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_team_view()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_team_view" duration-ms="3735" started-at="2021-01-30T13:21:50 IST" finished-at="2021-01-30T13:21:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_team_view -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="727" started-at="2021-01-30T13:21:54 IST" finished-at="2021-01-30T13:21:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="16176" started-at="2021-01-30T13:21:55 IST" finished-at="2021-01-30T13:22:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeft_Side_NAV_timeline()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLeft_Side_NAV_timeline" duration-ms="6199" started-at="2021-01-30T13:22:11 IST" finished-at="2021-01-30T13:22:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeft_Side_NAV_timeline -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="703" started-at="2021-01-30T13:22:17 IST" finished-at="2021-01-30T13:22:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="17875" started-at="2021-01-30T13:22:18 IST" finished-at="2021-01-30T13:22:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInName()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verifyLoggedInName" duration-ms="93" started-at="2021-01-30T13:22:36 IST" finished-at="2021-01-30T13:22:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="943" started-at="2021-01-30T13:22:36 IST" finished-at="2021-01-30T13:22:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15384" started-at="2021-01-30T13:22:37 IST" finished-at="2021-01-30T13:22:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_crm_companies_Test()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="verify_crm_companies_Test" duration-ms="4574" started-at="2021-01-30T13:22:52 IST" finished-at="2021-01-30T13:22:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_crm_companies_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="963" started-at="2021-01-30T13:22:57 IST" finished-at="2021-01-30T13:22:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationTest.TestCases.HomePageTest -->
+      <class name="automationTest.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="setUp" is-config="true" duration-ms="7121" started-at="2021-01-30T13:22:58 IST" finished-at="2021-01-30T13:23:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitleNameTest()[pri:1, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="verifyTitleNameTest" duration-ms="45" started-at="2021-01-30T13:23:05 IST" finished-at="2021-01-30T13:23:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="tearDown" is-config="true" duration-ms="978" started-at="2021-01-30T13:23:05 IST" finished-at="2021-01-30T13:23:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="setUp" is-config="true" duration-ms="7608" started-at="2021-01-30T13:23:06 IST" finished-at="2021-01-30T13:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="virifyLogoTest()[pri:2, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="virifyLogoTest" duration-ms="78" started-at="2021-01-30T13:23:13 IST" finished-at="2021-01-30T13:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- virifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-01-30T13:23:14 IST" finished-at="2021-01-30T13:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="setUp" is-config="true" duration-ms="7910" started-at="2021-01-30T13:23:14 IST" finished-at="2021-01-30T13:23:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="loginTest" duration-ms="8214" started-at="2021-01-30T13:23:22 IST" finished-at="2021-01-30T13:23:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationTest.TestCases.LoginPageTest@18eed359]" name="tearDown" is-config="true" duration-ms="1092" started-at="2021-01-30T13:23:30 IST" finished-at="2021-01-30T13:23:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationTest.TestCases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

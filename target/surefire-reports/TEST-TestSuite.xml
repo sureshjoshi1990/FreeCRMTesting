@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="30" failures="0" name="TestSuite" time="101.101" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CRM_Test_Job"/>
+    <property name="ANDROID_SDK_HOME" value="C:\Android"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/CRM_Test_Job/14/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\DELL\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="ec260dd40b6954e9"/>
+    <property name="POM_ARTIFACTID" value="automationTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="automationTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\DELL\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="DELL"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="CRM_Test_Job"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/CRM_Test_Job/14/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="OneDrive" value="C:\Users\DELL\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\DELL\AppData\Local"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="DELL"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="BUILD_ID" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/CRM_Test_Job/14/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\DELL\AppData\Local\Temp"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/CRM_Test_Job/14/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/CRM_Test_Job/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DELL-E5470"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\DELL"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DELL-E5470"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="POM_GROUPID" value="com.demo"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-CRM_Test_Job-14"/>
+    <property name="JENKINS_SERVER_COOKIE" value="ec260dd40b6954e9"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\DELL"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;;C:\Android;C:\Windows\System32;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_191\bin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\DELL\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\DELL\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61345"/>
+    <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;;C:\Android;C:\Windows\System32;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_191\bin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=D:" value="D:\jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\DELL\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/CRM_Test_Job/14/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\My_Database\automationTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/CRM_Test_Job/"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="LOGONSERVER" value="\\DELL-E5470"/>
+    <property name="USERDOMAIN" value="DELL-E5470"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\DELL\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="14"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\DELL\.jenkins\workspace\CRM_Test_Job@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\DELL\.jenkins\workspace\CRM_Test_Job"/>
+    <property name="maven3.interceptor.common" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyCRMHomePageTitleNameTest" time="0.019"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_Blog" time="0.248"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_NO_Company_Loaded_Test" time="0.328"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_Short_List" time="0.246"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_add_Boxes" time="0.22"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_audit_trail" time="3.549"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_calendar" time="4.418"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_call_list" time="4.508"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_customviews" time="3.894"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_exports" time="4.353"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_imports" time="4.211"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_knowledge_base" time="4.971"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_mail_accounts" time="6.236"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_messages" time="3.712"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_pipeline" time="6.849"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_preferences" time="4.742"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_products" time="3.626"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_promotions" time="4.129"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_quick_alerts" time="5.065"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_quick_create" time="0.152"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_resources" time="3.849"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_sales_targets" time="4.045"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_schedule_call" time="4.796"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_team_view" time="3.735"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLeft_Side_NAV_timeline" time="6.199"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verifyLoggedInName" time="0.091"/>
+  <testcase classname="automationTest.TestCases.HomePageTest" name="verify_crm_companies_Test" time="4.575"/>
+  <testcase classname="automationTest.TestCases.LoginPageTest" name="verifyTitleNameTest" time="0.043"/>
+  <testcase classname="automationTest.TestCases.LoginPageTest" name="virifyLogoTest" time="0.076"/>
+  <testcase classname="automationTest.TestCases.LoginPageTest" name="loginTest" time="8.216"/>
+</testsuite>
